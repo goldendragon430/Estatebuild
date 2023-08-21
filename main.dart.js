@@ -9958,7 +9958,7 @@ while(true)switch(s){case 0:p=t.z
 o=J
 n=J
 s=3
-return A.P(A.aNo(null).a1B("http://154.38.161.183:5000/mail/active",A.aa(["to",a,"title",b,"body",c],t.N,p),p),$async$qs)
+return A.P(A.aNo(null).a1B("https://mailserver-p4vx.onrender.com/mail/active",A.aa(["to",a,"title",b,"body",c],t.N,p),p),$async$qs)
 case 3:if(o.d(n.ad(e.a,"result"),"success")){q=!0
 s=1
 break}else{q=!1
@@ -49443,7 +49443,7 @@ break}m=B.fT.xK(9e5)+1e5
 l=J
 k=J
 s=3
-return A.P(p.d.a1B("http://154.38.161.183:5000/mail/send",A.aa(["to",p.f,"code",m],t.N,t.K),t.z),$async$DV)
+return A.P(p.d.a1B("https://mailserver-p4vx.onrender.com/mail/send",A.aa(["to",p.f,"code",m],t.N,t.K),t.z),$async$DV)
 case 3:if(l.d(k.ad(b.a,"result"),"success"))p.B(new A.az0(p,m))
 else A.dt("Error","Mail server is error.",B.aq)
 case 1:return A.G(q,r)}})
